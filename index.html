@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="images/discord_icon.svg"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Discord | Твоє місце для спілкування та розваг</title>
+</head>
+<body>
+<header>
+    <div id="header-image">
+        <img id="header-back-img" src="images/header_back.svg">
+        <img id="header-first-img" src="images/header1.svg">
+        <img id="header-second-img" src="images/header2.svg">
+    </div>
+    <div id="header">
+        <a class="logo" href="https://discord.com/">
+            <img src="images/discord-logo.svg" alt="Discord Logo"/>
+        </a>
+        <nav>
+            <ul id="navigation">
+                <li><a href="https://discord.com/download">Download</a></li>
+                <li><a href="https://discord.com/nitro">Nitro</a></li>
+                <li><a href="https://discord.com/servers">Discover</a></li>
+                <li><a href="https://discord.com/safetycenter">Safety</a></li>
+                <li><a href="https://support.discord.com/hc/uk">Support</a></li>
+                <li><a href="https://discord.com/blog">Blog</a></li>
+                <li><a href="https://discord.com/jobs">Careers</a></li>
+            </ul>
+        </nav>
+        <div id="login-and-menu">
+            <a id="login-btn" href="https://discord.com/login">Login</a>
+            <div id="burger-menu">
+                <input type="checkbox" id="check"/>
+                <label for="check">
+                    <img src="images/burger_menu.svg" id="menu-btn"/>
+                </label>
+                <div id="sidebar">
+                    <div id="sidebar-menu">
+                        <div id="sidebar-header">
+                            <a class="logo" href="https://discord.com/">
+                                <img src="images/discord-logo_sidebar.svg" alt="Discord Logo"/>
+                            </a>
+                            <label for="check">
+                                <img src="images/menu_close.svg" class="close-menu"/>
+                            </label>
+                        </div>
+                        <div class="divider"></div>
+                        <ul>
+                            <li><a class="active" href="https://discord.com/">На головну</a></li>
+                            <li><a href="https://discord.com/download">Download</a></li>
+                            <li><a href="https://discord.com/nitro">Nitro</a></li>
+                            <li><a href="https://discord.com/servers">Discover</a></li>
+                            <li id="safety-li">
+                                <div id="safety-link">
+                                    <input type="checkbox" id="safety-check"/> Safety
+                                    <label for="safety-check">
+                                        <img src="images/right_arrow.svg" id="right-arrow" class="arrows"/>
+                                    </label>
+                                    <div id="safety-sidebar">
+                                        <div id="safety-sidebar-header">
+                                            <label for="safety-check">
+                                                <img src="images/left_arrow.svg" id="left-arrow" class="arrows"/> Назад
+                                            </label>
+                                            <label for="safety-check">
+                                                <img src="images/menu_close.svg" class="close-menu"/>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <div class="safety-containers">
+                                                <h3 class="safety-containers-header">Центр безпеки</h3>
+                                                <ul class="safety-containers-list">
+                                                    <li><a href="https://discord.com/safetycenter">Огляд</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="safety-containers">
+                                                <h3 class="safety-containers-header">Controlling Your Experience</h3>
+                                                <ul class="safety-containers-list">
+                                                    <li><a
+                                                            href="/safety/360043857751-Four-steps-to-a-super-safe-account">Four
+                                                        steps to a super safe account</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360043653152-Four-steps-to-a-super-safe-server">Four
+                                                        steps to a super safe server</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044103531-Role-of-administrators-and-moderators-on-Discord">Role
+                                                        of administrators and moderators on Discord</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044103651-Reporting-problems-to-Discord">Reporting
+                                                        problems to Discord</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044103771-Mental-health-on-Discord">Mental
+                                                        health on Discord</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360043653552-Age-Restricted-Content-on-Discord">Age-Restricted
+                                                        Content on Discord</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044104071-Tips-against-spam-and-hacking">Tips
+                                                        against spam and hacking</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="safety-containers">
+                                                <h3 class="safety-containers-header">Parents & Educators</h3>
+                                                <ul class="safety-containers-list">
+                                                    <li><a
+                                                            href="/safety/360044149331-What-is-Discord?">What is
+                                                        Discord?</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360043700632-Discords-commitment-to-a-safe-and-trusted-experience">Discord's
+                                                        commitment to a safe and trusted experience</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044153831-Helping-your-teen-stay-safe-on-Discord">Helping
+                                                        your teen stay safe on Discord</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044154611-Talking-about-online-safety-with-your-teen">Talking
+                                                        about online safety with your teen</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044149591-Answering-parents-and-educators-top-questions">Answering
+                                                        parents' and educators' top questions</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044154771-If-your-teen-encounters-an-issue">If
+                                                        your teen encounters an issue</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360057166133-Working-with-CARU-to-protect-users-on-Discord">Working
+                                                        with CARU to protect users on Discord</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="safety-containers">
+                                                <h3 class="safety-containers-header">How We Enforce Rules</h3>
+                                                <ul class="safety-containers-list">
+                                                    <li><a
+                                                            href="/safety/360043709612-Our-policies">Our policies</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044158971-Enforcing-our-rules">Enforcing
+                                                        our rules</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360043712132-How-we-investigate">How we
+                                                        investigate</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044159011-What-actions-we-take">What
+                                                        actions we take</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360043712172-How-you-can-appeal-our-actions">How
+                                                        you can appeal our actions</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360043712232-Discords-Transparency-Report">Discord's
+                                                        Transparency Report</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="/safety/360044157931-Working-with-law-enforcement">Working
+                                                        with law enforcement</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="sidebar-btn-container">
+                                                <a class="sidebar-btn"
+                                                   href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24">
+                                                        <g fill="currentColor">
+                                                            <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path>
+                                                            <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path>
+                                                        </g>
+                                                    </svg>
+                                                    Завантажити для Windows
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="https://support.discord.com/hc/uk">Support</a></li>
+                            <li><a href="https://discord.com/blog">Blog</a></li>
+                            <li><a href="https://discord.com/jobs">Careers</a></li>
+                        </ul>
+                        <div class="sidebar-btn-container">
+                            <a class="sidebar-btn"
+                               href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <g fill="currentColor">
+                                        <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path>
+                                        <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path>
+                                    </g>
+                                </svg>
+                                Завантажити для Windows
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="header-content">
+        <h1>УЯВИ МІСЦЕ...</h1>
+        <p>...де залюбки збирається твій шкільний клуб, геймерська тусовка або міжнародна спільнота митців. Або близькі
+            друзі, які хочуть провести час разом. Місце, де так просто спілкуватися щодня та чутися частіше.</p>
+        <div id="header-buttons">
+            <a id="header-download-btn"
+               href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="currentColor">
+                        <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path>
+                        <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path>
+                    </g>
+                </svg>
+                Завантажити для Windows
+            </a>
+            <button id="header-open-btn">Відкрити Discord у браузері</button>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="info-sections info-image-left">
+        <img class="info-images" src="images/section1.svg"/>
+        <div class="info-text">
+            <h2>Місце, куди можна потрапити тільки за запрошенням, створене тобою та для тебе. Де тобі добре.</h2>
+            <p>Сервери Discord — це організовані за тематиками канали, в яких можна співпрацювати, ділитися та просто
+                поговорити про свій день, не засмічуючи груповий чат.</p>
+        </div>
+    </section>
+    <div class="gray-bg-section">
+        <section class="info-sections info-image-right">
+            <div class="info-text">
+                <h2>Де відриватися — легко</h2>
+                <p>Займай місце в голосовому каналі, коли маєш вільний час. Друзі на твоєму сервері побачать, що ти в
+                    мережі, і
+                    миттєво з'являться, щоб поспілкуватися з тобою без дзвінка.</p>
+            </div>
+            <img class="info-images" src="images/section2.svg"/>
+        </section>
+    </div>
+    <section class="info-sections info-image-left">
+        <img class="info-images" src="images/section3.svg"/>
+        <div class="info-text">
+            <h2>Від кількох осіб до справжньої спільноти фанатів</h2>
+            <p>Створи спільноту за допомогою інструментів модерування та персоналізованого доступу учасників. Надавай їм
+                особливі можливості, створюй приватні канали та ще багато іншого.</p>
+        </div>
+    </section>
+    <section class="end-sections gray-bg-section">
+        <h2>НАДІЙНІ ТЕХНОЛОГІЇ, ЩОБ ЗАЛИШАТИСЯ НА ЗВ'ЯЗКУ</h2>
+        <p>Голосове та відео-спілкування з малою затримкою, ніби всі знаходяться в одній кімнаті. Помаши рукою на відео,
+            дивись трансляції ігор друзів, або збирайтеся разом та малюйте, показуючи свій екран іншим.</p>
+        <img src="images/section4.svg"/>
+    </section>
+    <section class="journey-sections gray-bg-section">
+        <div>
+            <img src="images/section5.svg"/>
+            <h2>Готовий розпочати свою подорож?</h2>
+        </div>
+        <a id="journey-sections-btn"
+           href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+                <g fill="currentColor">
+                    <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path>
+                    <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path>
+                </g>
+            </svg>
+            Завантажити для Windows
+        </a>
+    </section>
+</main>
+<footer>
+    <div id="footer-navigation">
+        <div>
+            <select>
+                <option>
+                    Українська
+                </option>
+                <option>
+                    English, USA
+                </option>
+            </select>
+            <div id="social-media">
+                <ul>
+                    <li><a href="https://twitter.com/discord">
+                        <img src="images/twitter.svg" alt="twitter">
+                    </a></li>
+                    <li><a href="https://www.instagram.com/discord/">
+                        <img src="images/instagram.svg" alt="instagram">
+                    </a></li>
+                    <li><a href="https://www.facebook.com/discord/">
+                        <img src="images/facebook.svg" alt="facebook">
+                    </a></li>
+                    <li><a href="https://www.youtube.com/discord/">
+                        <img src="images/youtube.svg" alt="youtube">
+                    </a></li>
+                    <li><a href="https://www.tiktok.com/@discord">
+                        <img src="images/tiktok.svg" alt="tiktok">
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="links-section">
+            <div>
+                <ul>
+                    <li>Продукт</li>
+                    <li><a href="https://discord.com/download">Завантажити</a></li>
+                    <li><a href="https://discord.com/nitro">Nitro</a></li>
+                    <li><a href="https://discordstatus.com/">Стан</a></li>
+                    <li><a href="https://discord.com/application-directory">Каталог програм</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Про компанію</li>
+                    <li><a href="https://discord.com/company">Про нас</a></li>
+                    <li><a href="https://discord.com/jobs">Робота</a></li>
+                    <li><a href="https://discord.com/branding">Бренд</a></li>
+                    <li><a href="https://discord.com/newsroom">Новини</a></li>
+                    <li><a href="https://discord.com/fallrelease">Fall Release</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Ресурси</li>
+                    <li><a href="https://discord.com/college">Коледж</a></li>
+                    <li><a href="https://support.discord.com/hc/en-us">Підтримка</a></li>
+                    <li><a href="https://discord.com/safetycenter">Безпека</a></li>
+                    <li><a href="https://discord.com/blog">Блог</a></li>
+                    <li><a href="https://feedback.discord.com/">Зворотний зв'язок</a></li>
+                    <li><a href="https://discord.com/build">Developers</a></li>
+                    <li><a href="https://discord.com/streamkit">StreamKit</a></li>
+                    <li><a href="https://discord.com/creators">Creators</a></li>
+                    <li><a href="https://discord.com/community">Community</a></li>
+                    <li><a href="https://discordmerch.com/evergreenfooter">Official 3rd Party Merch</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Політики</li>
+                    <li><a href="https://discord.com/terms">Умови</a></li>
+                    <li><a href="https://discord.com/privacy">Конфіденційність</a></li>
+                    <li><a href="https://discord.com/">Налаштування cookie</a></li>
+                    <li><a href="https://discord.com/guidelines">Поради</a></li>
+                    <li><a href="https://discord.com/acknowledgements">Подяки</a></li>
+                    <li><a href="https://discord.com/licenses">Ліцензії</a></li>
+                    <li><a href="https://discord.com/company-information">Відомості про компанію</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer-container">
+        <hr/>
+        <div id="footer-end">
+            <a id="logo" href="https://discord.com/">
+                <img src="images/discord-logo.svg" alt="Discord Logo">
+            </a>
+            <a id="footer-btn" href="https://discord.com/register">Зареєструватися</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
